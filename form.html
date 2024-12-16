@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>폼 테스트</title>
+</head>
+<body>
+    <label>
+        text
+        <input type="text">
+    </label>
+    <br>
+    <label>
+        password
+        <input type="password">
+    </label>
+    <br>
+    <label>
+        number
+            <input type="number">
+    </label>
+    <br>
+    <label>
+        color
+        <input type="color">
+    </label>
+    <br>
+    <label>
+        button
+        <input type="button" value="버튼">
+    </label>
+    <p>좋아하는 과목</p>
+    <input type="radio" name="subject">국어
+    <input type="radio" name="subject">수학
+    <input type="radio" name="subject">영어
+
+    <p>좋아하는 음식</p>
+    <input type="checkbox" name="food">제육볶음
+    <input type="checkbox" name="food">돈까스
+    <input type="checkbox" name="food">떡볶이
+    <br>
+
+    <select>
+        <option>커피</option>
+        <option selected="주스">콜라</option>
+        <option>주스</option>
+        <option>생수</option>
+    </select>
+    <br>
+
+    <textarea cols="20", rows="6"></textarea><br>
+
+    <progress value="70" max="100"></progress>
+    <input type="button" value="눌러"><br>
+
+    <form method="post" action="#">
+        <label for="test">테스트</label>
+        <input type="text" id="test" name="test">
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
